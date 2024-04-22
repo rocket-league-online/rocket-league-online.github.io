@@ -1,0 +1,102 @@
+body {
+    background: #ff0084;
+    background: -webkit-linear-gradient(to right, #33001b, #ff0084);
+    background: linear-gradient(to right, #33001b, #ff0084);
+}
+
+header.bg_header {
+    background: linear-gradient(to left, #33001b, #ff0084);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px 0px;
+}
+.game-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+#mobile-back-button {
+    display: none;
+    align-items: center;
+    position: fixed;
+    z-index: 101;
+    top: 100px;
+    left: 0;
+    width: 56px;
+    height: 46px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 24%) 0px 16px 32px;
+    border-radius: 0px 16px 16px 0px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.game-iframe-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 600px;
+}
+.game-info {
+    background: linear-gradient(to left, #33001b, #ff0084);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 0 10px 10px 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+}
+.image_game img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.game_name {
+    color: white;
+    margin-top: 10px;
+}
+.card_img {
+    padding: 8px;
+    background: #ff0084;
+    background: -webkit-linear-gradient(to right, #33001b, #ff0084);
+    background: linear-gradient(to right, #33001b, #ff0084);
+    border-radius: 20px;
+    margin-bottom: 3rem;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+section.marign_bet_secti{
+    margin-top: 3rem;
+}
+.card_img a {
+    text-decoration: none;
+}
+.footer {
+    background: linear-gradient(to left, #33001b, #ff0084);
+    padding: 20px;
+}
+.footer_text p a {
+    text-decoration: none;
+}
+
+.footer_text {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    font-weight: 600;
+}
+.footer_text p {
+    margin: 0;
+}
+h3.section-title {
+    color: white !important;
+}
+
+section.marign_bet_secti {
+    margin-top: 3rem;
+    color: white !important;
+}
